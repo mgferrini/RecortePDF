@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corte 10×15</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/32.png" width="32" height="32" alt="" />
+      <div>
+        <p class="kicker">En esta pestaña</p>
+        <h1>Corte 10×15</h1>
+      </div>
+    </header>
+
+    <p id="file" class="file">Buscando el PDF abierto…</p>
+    <p id="message" class="message" hidden></p>
+
+    <button id="crop" type="button" class="primary" disabled>Recortar y descargar</button>
+
+    <fieldset>
+      <legend>Posición del recorte</legend>
+      <div class="stack" id="anchors">
+        <button type="button" data-anchor="top-left">Arriba a la izquierda</button>
+        <button type="button" data-anchor="top-center">Arriba al centro</button>
+        <button type="button" data-anchor="center">Centro</button>
+      </div>
+      <div class="pair" id="sizes">
+        <button type="button" data-landscape="false">10 × 15</button>
+        <button type="button" data-landscape="true">15 × 10</button>
+      </div>
+      <div class="pair fields">
+        <label>
+          Desde la izquierda
+          <input id="x" inputmode="decimal" aria-label="Desde la izquierda, en milímetros" />
+          <span>mm</span>
+        </label>
+        <label>
+          Desde arriba
+          <input id="y" inputmode="decimal" aria-label="Desde arriba, en milímetros" />
+          <span>mm</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <p class="note">
+      El original no se toca. Imprimí el archivo nuevo en papel 100 × 150 mm, escala 100 %, sin ajustar a la página.
+      La posición queda guardada en este Chrome.
+    </p>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

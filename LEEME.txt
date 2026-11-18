@@ -1,0 +1,45 @@
+Corte 10×15
+==============
+
+Extensión de Chrome. Con el PDF de la etiqueta abierto, tocás el ícono
+y lo recorta a 100 × 150 mm. El dibujo no se achica.
+
+Instalar en cada PC, una sola vez
+----------------------------------
+
+1. Copiá esta carpeta entera a la PC. Por ejemplo a C:\corte-10x15
+   No la muevas después: Chrome la abre desde ese lugar.
+
+2. Abrí Chrome y entrá a esta dirección:
+
+   chrome://extensions
+
+3. Arriba a la derecha, activá "Modo de desarrollador".
+
+4. Tocá "Cargar descomprimida" y elegí esta carpeta,
+   la que tiene el archivo manifest.json adentro.
+
+5. Fijá el ícono. Tocá la pieza de rompecabezas, al lado de la
+   barra de direcciones, y la chincheta de Corte 10×15.
+
+6. Si abrís el PDF con doble clic, desde el disco: en
+   chrome://extensions entrá a Detalles de Corte 10×15 y activá
+   "Permitir acceso a URLs de archivo".
+
+Usarlo
+------
+
+1. Abrí el PDF en Chrome.
+2. Tocá el ícono.
+3. Tocá "Recortar y descargar".
+4. Imprimí ese archivo en papel 100 × 150 mm, escala 100 %,
+   sin "ajustar a la página".
+
+Si la etiqueta no está en la esquina de arriba a la izquierda,
+cambiá la posición una vez. Queda guardada en ese Chrome.
+Si usás la misma cuenta de Google, también se copia a las otras PC.
+
+Atajo: Ctrl+Shift+E recorta el PDF que está abierto.
+
+Chrome no instala esto con doble clic. Estos pasos se hacen una vez
+en cada computadora. Después la extensión queda puesta.
